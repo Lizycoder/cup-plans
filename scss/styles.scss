@@ -22,7 +22,7 @@ body {
 	flex-direction:column;
 	text-align:center;
 	background-color:$bgcs-color;
-	padding:50px;
+	padding:40px;
 	margin:0;
 	width: 30%;
 	height: 440px;
@@ -50,7 +50,7 @@ body {
 	&__title {
 	color:$text-color;
 	font:400 56px/1 $text-ff;
-	padding:10px 0;
+
 	max-height:60px;
 	word-wrap:break-word;
 	overflow:hidden;
@@ -60,16 +60,17 @@ body {
 	}
 	&__subtitle {
 	color:$secondary-color;
-	font:300 20px/1 $text-ff;
+	padding: 0 30%;
+	font:300 20px/1.5 $text-ff;
 	max-height:60px;
 	word-wrap:break-word;
 	overflow:hidden;
 	margin:0;
 	
 	}
-}
-.item__img {
-	max-width:80%;
-	max-height:80%;
-	align-self:center;
+	&__img {
+		max-width:80%;
+		max-height:80%;
+		align-self:center;
+	}
 }
